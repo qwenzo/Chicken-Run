@@ -53,10 +53,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_Gloomy_Animal\Script\CharacterSelect.cs" />
+     <Compile Include="Assets\_Gloomy_Animal\Script\MouseOrbitImproved.cs" />
+     <Compile Include="Assets\Low Poly Fruits\resources\fruits_tester.cs" />
      <Compile Include="Assets\mainManager.cs" />
+     <Compile Include="Assets\MonsterManager.cs" />
      <Compile Include="Assets\Mov_test.cs" />
+     <Compile Include="Assets\pointRotator.cs" />
      <Compile Include="Assets\snakeMove.cs" />
      <Compile Include="Assets\snakeMovement.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
+     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml" />
+     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
+     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml" />
+     <None Include="Assets\StreamingAssets\Vuforia\city_Units.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
+     <None Include="Assets\BrokenVector\FreeLowPolyPack\readme.txt" />
+     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
+     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml" />
+     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
+     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Mohamed/Documents/Snake/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
