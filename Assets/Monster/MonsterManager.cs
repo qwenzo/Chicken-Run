@@ -46,6 +46,7 @@ public class MonsterManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//transform.Translate(new Vector3(0.3f,0,0));
 	
 	}
 
@@ -67,10 +68,18 @@ public class MonsterManager : MonoBehaviour {
             position2 = new Vector3(currPos.x+Random.Range(-45,45), 2.703f, currPos.y+Random.Range(-45,45));
 		}
 		navMeshAgent.SetDestination(position2);
-		 visibleMonsterLaser();
+		//navMeshAgent.enabled=false;
+		 Invoke("finishMov",3f);
+
 		}
 		 
 	}
+
+ private void finishMov(){
+		 visibleMonsterLaser();
+		 anim.Play("Attack_animation");
+		//navMeshAgent.enabled=true;
+ }
 
 	
 	 

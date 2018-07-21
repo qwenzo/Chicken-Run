@@ -8,6 +8,11 @@ TagManager:
   - danger
   - laser
   - death
+  - Health
+  - Monster
+  - Tree
+  - Condor
+  - Power
   layers:
   - Default
   - TransparentFX

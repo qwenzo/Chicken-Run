@@ -45,7 +45,7 @@ public class mainManager : MonoBehaviour {
 	}
 	
 	void FixedUpdate () {
-		if(BossmonsterManager!=null && BossmonsterManager.isBoss ){
+		if(BossmonsterManager!=null && BossmonsterManager.isBoss  && !BossmonsterManager.isControlled){
 		 
           BossmonsterManager.transform.Rotate(new Vector3(0,180*Time.deltaTime,0));
 		 }
