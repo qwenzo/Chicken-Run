@@ -42,7 +42,7 @@ public class PlayerManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	    deathChecker();
-		 if (Input.GetMouseButtonDown(0)){ 
+		 if (Input.GetMouseButton(0)){ 
      Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
      RaycastHit hit;
      if (Physics.Raycast(ray, out hit)){

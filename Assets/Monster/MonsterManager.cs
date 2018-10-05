@@ -19,6 +19,7 @@ public class MonsterManager : MonoBehaviour {
    public bool isControlled;
 
    public bool isBoss;
+
    [SerializeField] float laserSpeed {
 	   set;
 	   get;
@@ -36,6 +37,7 @@ public class MonsterManager : MonoBehaviour {
 		 Renderer rend = DragonChild2.GetComponent<Renderer>();
 		 material=rend.material;
 		anim = GetComponent<Animator>();
+		//print(anim.get);
 		navMeshAgent = GetComponent<NavMeshAgent>();
 		laserSpeed = 1.5f;
 		 laser = transform.GetChild (0).gameObject;
@@ -46,6 +48,7 @@ public class MonsterManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//anim.Play("Attack_animation");
 		//transform.Translate(new Vector3(0.3f,0,0));
 	
 	}
